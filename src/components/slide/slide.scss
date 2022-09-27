@@ -1,0 +1,33 @@
+.slick-track {
+    display: flex !important;
+    // gap: 10px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    :first-child {
+        // gap: 0 !important;
+    }
+}
+
+.slick-next:before {
+    content: url(https://storage.googleapis.com/vxrd/right-arrow-slick.svg) !important;
+}
+
+.slick-prev:before {
+    content: url(https://storage.googleapis.com/vxrd/left-arrow-slick.svg) !important;
+}
+
+.slick-prev {
+    position: absolute;
+    z-index: 99;
+    left: 5px !important;
+}
+
+.slick-next {
+    position: absolute;
+    z-index: 99;
+    right: 25px !important;
+}
+
+.slick-slide.slick-active {
+    width: 275px !important;
+}
