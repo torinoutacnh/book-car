@@ -1,4 +1,56 @@
 .home {
+    .banner {
+        background: url(../../assets/banner.jpg) no-repeat center/cover;
+        width: 100vw;
+        height: 50vh;
+
+        @screen lg {
+            height: 92vh;
+        }
+
+        .MuiFormControl-root.MuiTextField-root.css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+            width: 100% !important;
+        }
+    }
+    .btn-book-car {
+        button {
+            z-index: 1;
+            position: relative;
+            font-size: inherit;
+            font-family: inherit;
+            color: white;
+            width: 100%;
+            padding: 0.95rem 0;
+            outline: none;
+            border: none;
+            background-color: hsl(236, 32%, 26%);
+            border-radius: 5px;
+        }
+
+        button::before {
+            content: "";
+            z-index: -1;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: #0060c4;
+            border-radius: 5px;
+            transform-origin: center right;
+            transform: scaleX(0);
+            transition: transform 0.25s ease-in-out;
+        }
+
+        button:hover {
+            cursor: pointer;
+        }
+
+        button:hover::before {
+            transform-origin: center left;
+            transform: scaleX(1);
+        }
+    }
 }
 .two-line {
     word-break: break-all;

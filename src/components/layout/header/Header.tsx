@@ -6,13 +6,13 @@ import HeaderMobi from "./HeaderMobi";
 function Header() {
     return (
         <header
-            className="bg-white h-[60px] shadow-lg"
+            className="bg-white h-[80px] shadow-lg"
             style={{ boxShadow: "rgba(0, 0, 0, 0.1) 0px 4px 12px;" }}
         >
             <div className="header-desktop">
-                <div className="container ">
+                <div className="container">
                     <div className="flex justify-between items-center py-5">
-                        <Link to={"/"} className="text-3xl font-bold">
+                        <Link to={"/"} className="text-2xl font-bold">
                             Logo
                         </Link>
 

@@ -36,8 +36,9 @@ export default function SlideItems() {
                         alt=""
                         className="rounded-t-lg w-[275px]"
                     />
-                    <h3 className="p-5 text-[1.8rem] font-bold bg-white h-[60px] max-w-[275px] rounded-b-md">
-                        Ưu đãi các tuyến đường HOT lên đến 50%
+                    <h3 className="px-3 pt-2 two-line text-[1rem] font-bold bg-white h-[60px] max-w-[275px] rounded-b-md">
+                        Ưu đãi các tuyến đường HOT lên đến 50% Ưu đãi các tuyến đường HOT lên đến
+                        50%
                     </h3>
                 </div>
                 <div className="pr-5">
@@ -46,7 +47,7 @@ export default function SlideItems() {
                         alt=""
                         className="rounded-t-lg w-[275px]"
                     />
-                    <h3 className="p-5 text-[1.8rem] font-bold bg-white h-[60px] max-w-[275px] rounded-b-md">
+                    <h3 className="px-3 pt-2 two-line text-[1rem] font-bold bg-white h-[60px] max-w-[275px] rounded-b-md">
                         Tổng hợp chương trình khuyến mãi trong tháng
                     </h3>
                 </div>
@@ -56,7 +57,7 @@ export default function SlideItems() {
                         alt=""
                         className="rounded-t-lg w-[275px]"
                     />
-                    <h3 className="p-5 text-[1.8rem] font-bold bg-white h-[60px] max-w-[275px] rounded-b-md">
+                    <h3 className="px-3 pt-2 two-line text-[1rem] font-bold bg-white h-[60px] max-w-[275px] rounded-b-md">
                         Chuyến xe tựu trường - 6000 vé xe miễn phí tặng sinh viên
                     </h3>
                 </div>
@@ -66,7 +67,7 @@ export default function SlideItems() {
                         alt=""
                         className="rounded-t-lg w-[275px]"
                     />
-                    <h3 className="p-5 text-[1.8rem] font-bold bg-white h-[60px] max-w-[275px] rounded-b-md">
+                    <h3 className="px-3 pt-2 two-line text-[1rem] font-bold bg-white h-[60px] max-w-[275px] rounded-b-md">
                         Ưu đãi bất ngờ khi đặt xe
                     </h3>
                 </div>
@@ -76,7 +77,7 @@ export default function SlideItems() {
                         alt=""
                         className="rounded-t-lg w-[275px]"
                     />
-                    <h3 className="p-5 text-[1.8rem] font-bold bg-white h-[60px] max-w-[275px] rounded-b-md">
+                    <h3 className="px-3 pt-2 two-line text-[1rem] font-bold bg-white h-[60px] max-w-[275px] rounded-b-md">
                         Ưu đãi bất ngờ khi đặt xe
                     </h3>
                 </div>
@@ -86,7 +87,7 @@ export default function SlideItems() {
                         alt=""
                         className="rounded-t-lg w-[275px]"
                     />
-                    <h3 className="p-5 text-[1.8rem] font-bold bg-white h-[60px] max-w-[275px] rounded-b-md">
+                    <h3 className="px-3 pt-2 two-line text-[1rem] font-bold bg-white h-[60px] max-w-[275px] rounded-b-md">
                         Dành cho KH mới - Giảm 25% khi đặt
                     </h3>
                 </div>

@@ -14,5 +14,5 @@
     }
 }
 .gird-layout {
-    @apply grid auto-cols-[100%] md:auto-cols-[45%] lg:auto-cols-[32.5%] grid-flow-col overflow-x-auto scroll-snap-mandatory scroll-snap-always gap-x-5;
+    @apply grid auto-cols-[80%] md:auto-cols-[45%] lg:auto-cols-[32.5%] grid-flow-col overflow-x-auto scroll-snap-mandatory scroll-snap-always gap-x-3;
 }
