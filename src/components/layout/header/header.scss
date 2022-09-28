@@ -31,3 +31,19 @@
     font-weight: 500;
     color: #000;
 }
+
+header {
+    #signInButton {
+        margin-left: 20px;
+        line-height: 0;
+        border-radius: 5px !important;
+        border: 1px solid #0060c4 !important;
+        span {
+            padding: 0 20px !important;
+            color: #0060c4;
+        }
+        button {
+            box-shadow: none !important;
+        }
+    }
+}
