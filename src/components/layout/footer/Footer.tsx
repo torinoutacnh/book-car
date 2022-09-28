@@ -7,12 +7,12 @@ function Footer() {
             <div className="container">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-[20px]">
                     <div>
-                        <h1 className="text-main text-[2.5rem] mb-5">Về chúng tôi</h1>
-                        <ul className="leading-[3rem]">
+                        <h1 className="text-main text-[1.5rem] mb-5 font-bold">Về chúng tôi</h1>
+                        <ul className="leading-[2rem]">
                             <li>
                                 <Link
                                     to={"/"}
-                                    className="cursor-pointer text-[1.8rem] font-semibold text-black hover:text-main"
+                                    className="cursor-pointer text-[1rem] font-semibold text-black hover:text-main"
                                 >
                                     Giới thiệu
                                 </Link>
@@ -20,7 +20,7 @@ function Footer() {
                             <li>
                                 <Link
                                     to={"/"}
-                                    className="cursor-pointer text-[1.8rem] font-semibold text-black hover:text-main"
+                                    className="cursor-pointer text-[1rem] font-semibold text-black hover:text-main"
                                 >
                                     Phầm mềm đại lý
                                 </Link>
@@ -28,7 +28,7 @@ function Footer() {
                             <li>
                                 <Link
                                     to={"/"}
-                                    className="cursor-pointer text-[1.8rem] font-semibold text-black hover:text-main"
+                                    className="cursor-pointer text-[1rem] font-semibold text-black hover:text-main"
                                 >
                                     Tuyển dụng
                                 </Link>
@@ -36,7 +36,7 @@ function Footer() {
                             <li>
                                 <Link
                                     to={"/"}
-                                    className="cursor-pointer text-[1.8rem] font-semibold text-black hover:text-main"
+                                    className="cursor-pointer text-[1rem] font-semibold text-black hover:text-main"
                                 >
                                     Tin tức
                                 </Link>
@@ -44,7 +44,7 @@ function Footer() {
                             <li>
                                 <Link
                                     to={"/"}
-                                    className="cursor-pointer text-[1.8rem] font-semibold text-black hover:text-main"
+                                    className="cursor-pointer text-[1rem] font-semibold text-black hover:text-main"
                                 >
                                     Liên hệ
                                 </Link>
@@ -52,12 +52,12 @@ function Footer() {
                         </ul>
                     </div>
                     <div>
-                        <h1 className="text-main text-[2.5rem] mb-5">Hỗ trợ</h1>
-                        <ul className="leading-[3rem]">
+                        <h1 className="text-main text-[1.5rem] mb-5 font-bold">Hỗ trợ</h1>
+                        <ul className="leading-[2rem]">
                             <li>
                                 <Link
                                     to={"/"}
-                                    className="cursor-pointer text-[1.8rem] font-semibold text-black hover:text-main"
+                                    className="cursor-pointer text-[1rem] font-semibold text-black hover:text-main"
                                 >
                                     Hướng dẫn thanh toán
                                 </Link>
@@ -65,7 +65,7 @@ function Footer() {
                             <li>
                                 <Link
                                     to={"/"}
-                                    className="cursor-pointer text-[1.8rem] font-semibold text-black hover:text-main"
+                                    className="cursor-pointer text-[1rem] font-semibold text-black hover:text-main"
                                 >
                                     Quy chế
                                 </Link>
@@ -73,7 +73,7 @@ function Footer() {
                             <li>
                                 <Link
                                     to={"/"}
-                                    className="cursor-pointer text-[1.8rem] font-semibold text-black hover:text-main"
+                                    className="cursor-pointer text-[1rem] font-semibold text-black hover:text-main"
                                 >
                                     Chính sách bảo mật thông tin
                                 </Link>
@@ -81,7 +81,7 @@ function Footer() {
                             <li>
                                 <Link
                                     to={"/"}
-                                    className="cursor-pointer text-[1.8rem] font-semibold text-black hover:text-main"
+                                    className="cursor-pointer text-[1rem] font-semibold text-black hover:text-main"
                                 >
                                     Chính sách bảo mật thanh toán
                                 </Link>
@@ -89,7 +89,7 @@ function Footer() {
                             <li>
                                 <Link
                                     to={"/"}
-                                    className="cursor-pointer text-[1.8rem] font-semibold text-black hover:text-main"
+                                    className="cursor-pointer text-[1rem] font-semibold text-black hover:text-main"
                                 >
                                     Chính sách và quy trình giải quyết tranh chấp, khiếu nại
                                 </Link>
@@ -97,7 +97,7 @@ function Footer() {
                             <li>
                                 <Link
                                     to={"/"}
-                                    className="cursor-pointer text-[1.8rem] font-semibold text-black hover:text-main"
+                                    className="cursor-pointer text-[1rem] font-semibold text-black hover:text-main"
                                 >
                                     Câu hỏi thường gặp
                                 </Link>
@@ -105,7 +105,7 @@ function Footer() {
                             <li>
                                 <Link
                                     to={"/"}
-                                    className="cursor-pointer text-[1.8rem] font-semibold text-black hover:text-main"
+                                    className="cursor-pointer text-[1rem] font-semibold text-black hover:text-main"
                                 >
                                     Tra cứu đơn hàng
                                 </Link>
@@ -113,12 +113,12 @@ function Footer() {
                         </ul>
                     </div>
                     <div>
-                        <h1 className="text-main text-[2.5rem] mb-5">Chứng nhận</h1>
-                        <ul className="leading-[3rem]">
+                        <h1 className="text-main text-[1.5rem] mb-5 font-bold">Chứng nhận</h1>
+                        <ul className="leading-[2rem]">
                             <li>
                                 <Link
                                     to={"/"}
-                                    className="cursor-pointer text-[1.8rem] font-semibold text-black hover:text-main"
+                                    className="cursor-pointer text-[1rem] font-semibold text-black hover:text-main"
                                 >
                                     <img
                                         src="https://storage.googleapis.com/fe-production/images/Home/certificate0.png"
@@ -129,7 +129,7 @@ function Footer() {
                             <li>
                                 <Link
                                     to={"/"}
-                                    className="cursor-pointer text-[1.8rem] font-semibold text-black hover:text-main"
+                                    className="cursor-pointer text-[1rem] font-semibold text-black hover:text-main"
                                 >
                                     <img
                                         src="https://storage.googleapis.com/fe-production/images/Home/certificate1.png"
@@ -140,7 +140,7 @@ function Footer() {
                             <li>
                                 <Link
                                     to={"/"}
-                                    className="cursor-pointer text-[1.8rem] font-semibold text-black hover:text-main"
+                                    className="cursor-pointer text-[1rem] font-semibold text-black hover:text-main"
                                 >
                                     <img
                                         src="https://storage.googleapis.com/fe-production/images/dangkybocongthuong.png"
@@ -151,7 +151,7 @@ function Footer() {
                             <li>
                                 <Link
                                     to={"/"}
-                                    className="cursor-pointer text-[1.8rem] font-semibold text-black hover:text-main"
+                                    className="cursor-pointer text-[1rem] font-semibold text-black hover:text-main"
                                 >
                                     <img
                                         src="https://storage.googleapis.com/fe-production/images/dangkybocongthuong.png"
@@ -162,8 +162,8 @@ function Footer() {
                         </ul>
                     </div>
                     <div>
-                        <h1 className="text-main text-[2.5rem] mb-5">Ứng dụng</h1>
-                        <ul className="leading-[3rem]">
+                        <h1 className="text-main text-[1.5rem] mb-5 font-bold">Ứng dụng</h1>
+                        <ul className="leading-[2rem]">
                             <li className="mb-3">
                                 <Link to={"/"}>
                                     <img
@@ -191,18 +191,18 @@ function Footer() {
 
             <div className="container">
                 <div className="m-auto text-center">
-                    <h2 className="text-[2.4rem] font-bold mt-[20px] mb-[10px]">
+                    <h2 className="text-[1.5rem] font-bold mt-[20px] mb-[10px]">
                         Công ty TNHH Thương Mại Dịch Vụ Cho Thuê Xe
                     </h2>
-                    <p className="text-[1.8rem] text-#999">
+                    <p className="text-[1rem] text-#999">
                         Địa chỉ đăng ký kinh doanh: 8C Chữ Đồng Tử, Phường 7, Quận Tân Bình, Thành
                         Phố Hồ Chí Minh, Việt Nam
                     </p>
-                    <p className="text-[1.8rem] text-#999">
+                    <p className="text-[1rem] text-#999">
                         Địa chỉ: Lầu 8 Tòa nhà CirCO, 222 Điện Biên Phủ, Quận 3, TP. Hồ Chí Minh,
                         Việt Nam
                     </p>
-                    <p className="text-[1.8rem] text-#999">Bản quyền © 2020 thuộc về chúng tôi</p>
+                    <p className="text-[1rem] text-#999">Bản quyền © 2020 thuộc về chúng tôi</p>
                 </div>
             </div>
         </footer>

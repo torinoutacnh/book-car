@@ -8,17 +8,18 @@
 }
 
 html {
-    font-size: 50%;
+    overflow-x: hidden;
+    font-size: 80%;
     @screen md {
-        font-size: 55%;
+        font-size: 90%;
     }
     @screen lg {
-        font-size: 62.5;
+        font-size: 100%;
     }
 }
 
 body {
-    background-color: #ede6e6;
+    background-color: #f8f9fa;
 }
 
 .container {

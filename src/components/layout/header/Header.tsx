@@ -1,3 +1,5 @@
+import Login from "components/login/Login";
+import Logout from "components/login/Logout";
 import React from "react";
 import { Link } from "react-router-dom";
 import "./header.scss";
@@ -5,14 +7,11 @@ import HeaderMobi from "./HeaderMobi";
 
 function Header() {
     return (
-        <header
-            className="bg-white h-[60px] shadow-lg"
-            style={{ boxShadow: "rgba(0, 0, 0, 0.1) 0px 4px 12px;" }}
-        >
+        <header className="bg-white h-[80px] shadow-lg">
             <div className="header-desktop">
-                <div className="container ">
+                <div className="container">
                     <div className="flex justify-between items-center py-5">
-                        <Link to={"/"} className="text-3xl font-bold">
+                        <Link to={"/"} className="text-2xl font-bold">
                             Logo
                         </Link>
 
@@ -59,7 +58,7 @@ function Header() {
                                     <span>Hotline</span>
                                 </Link>
                             </li>
-                            <li>
+                            {/* <li>
                                 <Link
                                     to={"/"}
                                     className="text-[16px] text-white ml-[30px] font-medium bg-main px-[25px] py-[9px] rounded-[5px] hover:opacity-90"
@@ -67,6 +66,9 @@ function Header() {
                                     <i className="fa-solid fa-user mr-3 text-[15px]"></i>
                                     <span>Đăng nhập</span>
                                 </Link>
+                            </li> */}
+                            <li>
+                                <Login />
                             </li>
                         </ul>
                     </div>
