@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import Banner from "../../assets/banner.jpg";
+import React from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import SlideItems from "components/slide/slide1";
@@ -9,69 +8,33 @@ import IconBus from "../../assets/icons/bus-car-icon.svg";
 import IconTicket from "../../assets/icons/yellow-ticket-icon.svg";
 import IconCheck from "../../assets/icons/completement-icon.svg";
 import IconBonus from "../../assets/icons/coupon-icon.svg";
-import { TextField } from "@mui/material";
-import { DateTimePicker } from "@mui/x-date-pickers";
-import moment, { Moment } from "moment";
+import DatePicker from "components/datePicker/DatePicker";
 
 function Home() {
-    const [value, setValue] = useState<Moment | null>(moment("2014-08-18T21:11:54"));
-
-    const handleChange = (newValue: Moment | null) => {
-        setValue(newValue);
-    };
     return (
         <div className="home">
             <div className="banner">
                 <div className="relative top-[20%] lg:top-[50%] mx-5">
-                    <div className="grid grid-cols-1 lg:grid-cols-3 bg-white p-[20px] max-w-[750px] m-auto rounded-md ">
-                        <div className="lg:mr-3 mb-[30px] lg:mb-0">
-                            <DateTimePicker
-                                label="Ngày bắt đầu"
-                                value={value}
-                                onChange={handleChange}
-                                renderInput={(params) => <TextField {...params} />}
-                            />
-                        </div>
-                        <div className="lg:mr-3 mb-[30px] lg:mb-0">
-                            <DateTimePicker
-                                label="Ngày kết thúc"
-                                value={value}
-                                onChange={handleChange}
-                                renderInput={(params) => <TextField {...params} />}
-                            />
-                        </div>
-
-                        <div className="btn-book-car text-right">
-                            <button>ĐẶT XE NGAY</button>
-                        </div>
-                    </div>
+                    <DatePicker />
                 </div>
             </div>
 
             <div className="mt-[60px]">
                 <div className="container">
                     <section className="mb-[50px]">
-                        <h3 className="text-[1.3rem] text-[#484848] font-bold uppercase mb-3">
-                            các loại xe
-                        </h3>
+                        <h3 className="title pt-[20px]">các loại xe</h3>
                         <SlideItemsFist />
                     </section>
                     <section className="mb-[50px]">
-                        <h3 className="text-[1.3rem] text-[#484848] font-bold uppercase mb-3">
-                            Ưu đãi nổi bật
-                        </h3>
+                        <h3 className="title">Ưu đãi nổi bật</h3>
                         <SlideItems />
                     </section>
                     <section className="mb-[50px]">
-                        <h3 className="text-[1.3rem] text-[#484848] font-bold uppercase mb-3">
-                            Dịch vụ
-                        </h3>
+                        <h3 className="title">Dịch vụ</h3>
                         <SlideItems />
                     </section>
                     <section className="mb-[50px]">
-                        <h3 className="text-[1.3rem] text-[#484848] font-bold uppercase mb-3">
-                            Dịch vụ nổi bậc
-                        </h3>
+                        <h3 className="title">Dịch vụ nổi bậc</h3>
                         <div className="gird-layout">
                             <div className="scroll-snap-start">
                                 <div className="bg-white rounded-md">
@@ -113,9 +76,7 @@ function Home() {
                         </div>
                     </section>
                     <section className="mb-[50px]">
-                        <h3 className="text-[1.3rem] text-[#484848] font-bold uppercase mb-3">
-                            Dành cho đối tác
-                        </h3>
+                        <h3 className="title">Dành cho đối tác</h3>
                         <div className="gird-layout">
                             <div className="scroll-snap-start">
                                 <div className="bg-white rounded-md">
@@ -157,9 +118,7 @@ function Home() {
                         </div>
                     </section>
                     <section className="mb-[50px]">
-                        <h3 className="text-[1.3rem] text-[#484848] font-bold uppercase mb-3">
-                            Nền tảng kết nối người dùng và nhà xe
-                        </h3>
+                        <h3 className="title">Nền tảng kết nối người dùng và nhà xe</h3>
                         <div className="grid grid-cols-1 md:grid-cols-2 md:gap-2 lg:grid-cols-4 lg:gap-4 mt-[20px]">
                             <div className="flex justify-between items-start flex-nowrap mb-5 border-[1px] border-[#8d99ae] rounded-md p-4 bg-white">
                                 <div>
@@ -219,10 +178,8 @@ function Home() {
                             </div>
                         </div>
                     </section>
-                    <section className="mb-[50px]">
-                        <h3 className="text-[1.3rem] text-[#484848] font-bold uppercase mb-3">
-                            Bãi đổ xe
-                        </h3>
+                    <section className="mb-[50px] pb-[20px]">
+                        <h3 className="title">Bãi đổ xe</h3>
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
                             <div>
                                 <div className="relative after:content-[''] after:bg-rgbaBlack after:top-0 after:bottom-0 after:left-0 after:right-0 after:absolute">

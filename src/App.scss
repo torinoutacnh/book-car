@@ -26,4 +26,24 @@ body {
     max-width: calc(1080px + 40px);
     padding: 0 20px;
     margin: 0 auto;
+    // background-color: #f8f9fa;
+    // border-radius: 10px;
+}
+
+.scroll-custom::-webkit-scrollbar {
+    height: 10px !important;
+}
+
+.scroll-custom::-webkit-scrollbar-track {
+    background: #dee2e6;
+    border-radius: 5rem;
+}
+
+.scroll-custom::-webkit-scrollbar-thumb {
+    background: #0060c4;
+    border-radius: 5rem;
+}
+
+.bs {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
