@@ -16,3 +16,11 @@
 .gird-layout {
     @apply grid auto-cols-[80%] md:auto-cols-[45%] lg:auto-cols-[32.5%] grid-flow-col overflow-x-auto scroll-snap-mandatory scroll-snap-always gap-x-3;
 }
+
+.title {
+    @apply text-[1.3rem] text-[#484848] font-bold uppercase mb-3;
+}
+
+.btn-choose-car {
+    @apply bg-main px-3 py-2 text-white text-[1rem] hover:opacity-90;
+}
