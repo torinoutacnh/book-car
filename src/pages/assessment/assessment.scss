@@ -4,4 +4,13 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding: 5rem 0;
+
+    label {
+        color: #0060c4 !important;
+    }
+
+    .MuiFormLabel-root.MuiFormLabel-colorPrimary.css-u4tvz2-MuiFormLabel-root {
+        color: #000 !important;
+        font-weight: 500;
+    }
 }

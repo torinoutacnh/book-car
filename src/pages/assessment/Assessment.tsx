@@ -12,10 +12,22 @@ import Checkbox from "@mui/material/Checkbox";
 import "./assessment.scss";
 
 function Assessment() {
-    const [value, setValue] = useState<Moment | null>(moment());
+    const [passportDate, setPassportDate] = useState<Moment | null>(moment());
+    const [driverLicenseDate, setDriverLicenseDate] = useState<Moment | null>(moment());
+    const [carPickUpTime, setCarPickUpTime] = useState<Moment | null>(moment());
+    const [carReturnTime, setCarReturnTime] = useState<Moment | null>(moment());
 
-    const handleChange = (newValue: Moment | null) => {
-        setValue(newValue);
+    const handleChangePassportDate = (newValue: Moment | null) => {
+        setPassportDate(newValue);
+    };
+    const handleChangeDriverLicenseDate = (newValue: Moment | null) => {
+        setDriverLicenseDate(newValue);
+    };
+    const handleChangeCarPickUpTime = (newValue: Moment | null) => {
+        setCarPickUpTime(newValue);
+    };
+    const handleChangeCarReturnTime = (newValue: Moment | null) => {
+        setCarReturnTime(newValue);
     };
 
     return (
@@ -82,8 +94,8 @@ function Assessment() {
                             <DesktopDatePicker
                                 label="Ngày cấp CCCD/Hộ chiếu"
                                 inputFormat="DD/MM/YYYY"
-                                value={value}
-                                onChange={handleChange}
+                                value={passportDate}
+                                onChange={handleChangePassportDate}
                                 renderInput={(params) => <TextField {...params} />}
                             />
                             <TextField
@@ -94,22 +106,22 @@ function Assessment() {
                             <DesktopDatePicker
                                 label="Ngày cấp GPLX"
                                 inputFormat="DD/MM/YYYY"
-                                value={value}
-                                onChange={handleChange}
+                                value={driverLicenseDate}
+                                onChange={handleChangeDriverLicenseDate}
                                 renderInput={(params) => <TextField {...params} />}
                             />
                             <DesktopDatePicker
                                 label="Thời gian nhận xe"
                                 inputFormat="DD/MM/YYYY"
-                                value={value}
-                                onChange={handleChange}
+                                value={carPickUpTime}
+                                onChange={handleChangeCarPickUpTime}
                                 renderInput={(params) => <TextField {...params} />}
                             />
                             <DesktopDatePicker
                                 label="Thời gian trả xe"
                                 inputFormat="DD/MM/YYYY"
-                                value={value}
-                                onChange={handleChange}
+                                value={carReturnTime}
+                                onChange={handleChangeCarReturnTime}
                                 renderInput={(params) => <TextField {...params} />}
                             />
                         </div>
@@ -271,6 +283,9 @@ function Assessment() {
                                     <FormControlLabel control={<Checkbox />} label="Mục khác" />
                                 </FormGroup>
                             </div>
+                        </div>
+                        <div className="text-right">
+                            <button className="btn-choose-car">HOÀN TẤT</button>
                         </div>
                     </Box>
                 </div>
