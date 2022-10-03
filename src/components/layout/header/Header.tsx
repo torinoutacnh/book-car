@@ -12,6 +12,7 @@ import Popper from "@mui/material/Popper";
 import MenuItem from "@mui/material/MenuItem";
 import MenuList from "@mui/material/MenuList";
 import Stack from "@mui/material/Stack";
+import { MenuRouters } from "../../../routers/Routers";
 
 function Header() {
     const [open, setOpen] = React.useState(false);
@@ -58,30 +59,16 @@ function Header() {
                         </Link>
 
                         <ul className="flex justify-between items-center leading-[40px]">
-                            <li>
-                                <Link
-                                    to={"/"}
-                                    className="text-[16px] text-[#333] font-medium hover:text-main"
-                                >
-                                    Thuê Xe 4 cCỗ
-                                </Link>
-                            </li>
-                            <li>
-                                <Link
-                                    to={"/"}
-                                    className="text-[16px] text-[#333] ml-[30px] font-medium hover:text-main"
-                                >
-                                    Thuê Xe 7 cCỗ
-                                </Link>
-                            </li>
-                            <li>
-                                <Link
-                                    to={"/"}
-                                    className="text-[16px] text-[#333] ml-[30px] font-medium hover:text-main"
-                                >
-                                    Thuê Xe 16 Chỗ
-                                </Link>
-                            </li>
+                            {MenuRouters.map((e, index) => (
+                                <li key={index}>
+                                    <Link
+                                        to={e.path}
+                                        className="text-[16px] text-[#333] ml-[30px] font-medium hover:text-main"
+                                    >
+                                        {e.display}
+                                    </Link>
+                                </li>
+                            ))}
                             <li>
                                 <Stack direction="row" spacing={2}>
                                     <div className="w-[90px] pl-3">
