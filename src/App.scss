@@ -26,8 +26,6 @@ body {
     max-width: calc(1080px + 40px);
     padding: 0 20px;
     margin: 0 auto;
-    // background-color: #f8f9fa;
-    // border-radius: 10px;
 }
 
 .scroll-custom::-webkit-scrollbar {
@@ -46,4 +44,12 @@ body {
 
 .bs {
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.form-page {
+    background: url(./assets/bg-body.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5rem 0;
 }

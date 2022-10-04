@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import Box from "@mui/material/Box";
 import Radio from "@mui/material/Radio";
 import RadioGroup from "@mui/material/RadioGroup";
@@ -9,7 +9,7 @@ import { DesktopDatePicker } from "@mui/x-date-pickers";
 import moment, { Moment } from "moment";
 import FormGroup from "@mui/material/FormGroup";
 import Checkbox from "@mui/material/Checkbox";
-import "./assessment.scss";
+import { Link } from "react-router-dom";
 
 function Assessment() {
     const [passportDate, setPassportDate] = useState<Moment | null>(moment());
@@ -31,7 +31,7 @@ function Assessment() {
     };
 
     return (
-        <div className="assessment">
+        <div className="form-page">
             <div className="container">
                 <div className="bs bg-white p-5">
                     <h3 className="title text-center">bảng thẩm định khách hàng</h3>
@@ -285,7 +285,9 @@ function Assessment() {
                             </div>
                         </div>
                         <div className="text-right">
-                            <button className="btn-choose-car">HOÀN TẤT</button>
+                            <Link to={"/hop-dong"} className="btn-choose-car">
+                                HOÀN TẤT
+                            </Link>
                         </div>
                     </Box>
                 </div>

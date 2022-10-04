@@ -113,10 +113,14 @@ function Header() {
                                                                 onKeyDown={handleListKeyDown}
                                                             >
                                                                 <MenuItem onClick={handleClose}>
-                                                                    Quản lý đơn hàng
+                                                                    <Link to="/quan-ly-don-hang">
+                                                                        Quản lý đơn hàng
+                                                                    </Link>
                                                                 </MenuItem>
                                                                 <MenuItem onClick={handleClose}>
-                                                                    Quản lý hợp đồng
+                                                                    <Link to="/quan-ly-hop-dong">
+                                                                        Quản lý hợp đồng
+                                                                    </Link>
                                                                 </MenuItem>
                                                                 <hr />
                                                                 <MenuItem onClick={handleClose}>
