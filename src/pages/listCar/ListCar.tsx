@@ -150,6 +150,7 @@ function Detail(props: any) {
                                                         displayType={"text"}
                                                         thousandSeparator={true}
                                                     /> */}
+                                                    {car.price}
                                                     <span className="ml-3">đ/ngày</span>
                                                 </p>
                                             </div>
